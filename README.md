@@ -39,6 +39,7 @@ MERN AUTH/
 │   ├── models/       # MongoDB schemas
 │   └── .gitignore    # Server-specific ignores
 └── .gitignore        # Root-level fallback ignore
+
 ⚙️ Installation & Setup
 To run this project locally, follow these steps:
 
@@ -54,11 +55,13 @@ MONGO_URI=your_mongodb_connection_string_here
 JWT_SECRET=your_jwt_secret_key_here
 NODE_MAILER_USER=your_email@example.com
 NODE_MAILER_PASSWORD=your_app_specific_password_here
+
 3. Install Dependencies & Run
 Setup Server:
 cd server
 npm install
 npm start
+
 Setup Client:
 cd ../client
 npm install
