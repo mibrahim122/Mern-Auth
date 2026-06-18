@@ -1,5 +1,17 @@
 @import "tailwindcss";
+@variant dark (&:is(.dark *));
+
+/* THIS LINE IS CRITICAL: It tells Tailwind to look at all your files */
+@source "../src/**/*.{js,jsx,ts,tsx}";
+
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
 * {
-font-family: 'Outfit', sans-serif;
+    font-family: 'Outfit', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f9fafb;
+    /* gray-50 */
 }
